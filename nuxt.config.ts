@@ -9,5 +9,14 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
 
-  compatibilityDate: '2024-10-26'
+  compatibilityDate: '2024-10-26',
+
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/images/favicon.svg' },
+      ],
+      title: 'Tim\'s Blog'
+    },
+  },
 })
